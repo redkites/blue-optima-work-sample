@@ -1,0 +1,115 @@
+(.venv) PS D:\workspace\blue-optima-work-sample> python test_script.py --num_messages 100 --timeout 60
+Consuming responses from queue: response_queue
+Sent 100 messages...
+
+Sent 100 messages in 0.06 seconds.
+Average send time: 0.0006 seconds per message.
+Using the timeout of 60 seconds to wait for responses.
+Received response for message_id: 032e1b1e-faaa-4d2a-868c-499e046aa37d
+Received response for message_id: 95b4aba2-40ed-4043-ac9e-9f9402ba7001
+Received response for message_id: 08b336b1-acaf-41d5-937f-725a8a92d963
+Received response for message_id: 909f9036-bb8c-4ff0-9b0c-c08c7191366e
+Received response for message_id: 1625e0df-7ee7-4d13-9f57-ee0ea716b908
+Received response for message_id: a3c2460c-6dfe-4372-81a5-bd995cd819e8
+Received response for message_id: 3dba13d8-5ee0-4bad-a8b1-829c312b5c70
+Received response for message_id: 8d010a53-eebd-4362-bb2d-504d8bac07fd
+Received response for message_id: 6a1a14c6-5ba1-45d5-835f-460f0af5f526
+Received response for message_id: 606c540f-f6a6-41ae-aeb6-f2c1b783a870
+Received response for message_id: 43b068a2-1cfa-48d5-88bb-9f4aa994a719
+Received response for message_id: 3b347935-e72f-4a24-a3ef-833e977eecf0
+Received response for message_id: a9e4ccf6-a19c-4dfa-b7af-21c69767eee2
+Received response for message_id: c8e0c7c1-285d-41db-8387-5a3cc08e8b2a
+Received response for message_id: 2f31c7aa-3a9a-4324-b1ea-77cf5d9cf7e7
+Received response for message_id: 73936f43-a494-47de-967a-5ef8b53f0447
+Received response for message_id: fe81fb8d-69dc-4c8b-80fe-1e0b66819bd5
+Received response for message_id: 6e790fc2-316e-43bc-a7c2-c289498a5298
+Received response for message_id: ee717a94-14d4-4c45-99da-48050a234d2f
+Received response for message_id: bfe168ca-f164-441c-af7e-e7f92dccbdb2
+Received response for message_id: 772cd32b-6215-4924-977a-3cc3921c9d47
+Received response for message_id: d48a27e9-0564-43d7-9bd3-0ce2c7c762f7
+Received response for message_id: 0b6074e8-7daa-443a-9867-63e2ac956afb
+Received response for message_id: bed3a4b4-3e48-482e-b062-b395291cf943
+Received response for message_id: 3e318b0a-7ce4-4bdc-ac72-9562a3576c34
+Received response for message_id: aba38caf-38ce-4982-a6b3-da3957a7bb02
+Received response for message_id: 1c580f1a-457f-47b0-8638-ffe4e7476784
+Received response for message_id: 9639407d-3825-4b7b-a884-6f5afddab62e
+Received response for message_id: f0c35217-9c2a-4b78-9b8a-05aa041806cf
+Received response for message_id: eb11468e-f0a3-4f91-96d9-a3e8339651a7
+Received response for message_id: e1154ff6-42e7-45fe-b095-0a97207c7d8e
+Received response for message_id: 94c927d5-6b86-4f92-b3c8-83e8fc078bf8
+Received response for message_id: 9ef2d1c3-456b-46ed-b9a0-c88c225f36fb
+Received response for message_id: c18dd051-ac8c-4c35-8d07-2a0498c94243
+Received response for message_id: ad5a8a3f-649f-4360-815e-39d4e748bc1b
+Received response for message_id: 9d7aa410-4dcf-415c-915b-fe793682e56e
+Received response for message_id: 2f53656d-496f-47ba-a1ce-d225a81e1598
+Received response for message_id: 57c13d1e-dc32-4826-9124-3e003219058f
+Received response for message_id: 35228333-1ecb-4b9a-81cb-e24df2bbc7dd
+Received response for message_id: e741ffe2-7402-4ca0-b2ca-5f171a545092
+Received response for message_id: bf3fe425-bd62-4cc8-afd1-9dc19495e60f
+Received response for message_id: 68f645e0-11b9-44f4-8abf-cae59990afdc
+Received response for message_id: 69fef029-ba9a-469c-b69c-82733ef7c6a1
+Received response for message_id: b5c0acd2-83da-461c-a06a-33a1bdfc24fa
+Received response for message_id: 4245f10d-889b-460c-943c-483b4cade664
+Received response for message_id: 4c644b34-dca7-46f2-aae7-ddafa87ddd54
+Received response for message_id: 34f68042-39fd-41c0-9062-a96b93018da7
+Received response for message_id: c69df99b-8b3d-4658-928d-e120ae495676
+Received response for message_id: 2c2dfbff-b56a-486c-95d9-39221bafef16
+Received response for message_id: f8abcd40-ac36-4e6f-a490-b6b211a226e9
+Received response for message_id: 2ca27840-cae1-442d-92e1-cef7c2e9c412
+Received response for message_id: acc2849c-d639-43ab-8ce2-3d7e95c44b27
+Received response for message_id: 84b4aed7-f9cb-49d2-9043-b94f58a1689e
+Received response for message_id: 1bb2fe4a-eb55-473e-aa75-f706793063ba
+Received response for message_id: c72ec0f4-0468-4c10-b59c-792d7d788058
+Received response for message_id: 5e76703f-0a03-419e-8a3c-97d405f6e360
+Received response for message_id: 3edb02ba-dcb3-41ce-a8a9-438c9f91cc87
+Received response for message_id: 89c1c3e5-53e0-44f3-9605-bf6e30bcea92
+Received response for message_id: 8a99fa1c-ae97-4508-b95f-5ac6d982026b
+Received response for message_id: 0df3b571-980d-4b1e-afa3-b7e58c2886ec
+Received response for message_id: db97c66c-2fe9-4fdb-9dd9-bd908b8db787
+Received response for message_id: f2f1ecc3-55aa-4920-91a8-da6c72aa2028
+Received response for message_id: fc2bb081-99a8-49ce-b7e2-3bb11623addc
+Received response for message_id: 0022c44a-4653-426d-aef5-1cbc35f4dcad
+Received response for message_id: ba456748-f6f2-4f74-8371-61faf38bebd9
+Received response for message_id: 0a6ac9fd-842d-4739-ae20-bc2f19bc8241
+Received response for message_id: 1924b782-98ba-4fd0-9257-1b051a910b36
+Received response for message_id: 8e6677b6-da4b-47b0-9601-d415b99409b1
+Received response for message_id: d0c0d09c-8240-45d5-982e-55c093ddb32b
+Received response for message_id: c25d3ee5-3c39-49ce-8ca5-0decb6e4110c
+Received response for message_id: ec585c58-cf50-46e0-8dc1-dd398a50d952
+Received response for message_id: e7018c20-2a44-4573-9d4f-ccb882f2df30
+Received response for message_id: a06691e0-20e1-4d97-9b9c-5f899375ba0a
+Received response for message_id: ac8e18c8-c3ae-42b2-b4ee-6abd20c70222
+Received response for message_id: 5c1237d8-8c14-47a2-8a75-1e2d2752943f
+Received response for message_id: 35e411cd-f4a1-44b8-9ba8-c5181786a839
+Received response for message_id: b289eda5-08e4-46ae-87d4-52d565c4ec34
+Received response for message_id: 82361f4c-dd64-4861-ad86-d598cb4b80fb
+Received response for message_id: bd26c126-b506-4fe6-a950-31470afff666
+Received response for message_id: 5295b414-777d-4114-8ea3-9b65a67e5353
+Received response for message_id: 667f4ddd-e1c0-4b0a-bf94-9c8fa0c9d292
+Received response for message_id: ee81a4e2-c4d8-4587-893d-7f6e8f57ddd8
+Received response for message_id: 8375f9a2-a8e2-4d59-b735-6ea1e17ed949
+Received response for message_id: 950918e9-ccca-4297-894c-434d21ac7500
+Received response for message_id: f52fdd13-f6be-4fce-82b7-72686c7c8c4c
+Received response for message_id: 4bfb1982-0908-4767-be37-05f3e817908b
+Received response for message_id: d8f6ca12-bcc4-4bfd-9db0-4deceeea3235
+Received response for message_id: dc0b90f8-d353-4c3d-a7dd-08943699c3bd
+Received response for message_id: cb020878-9309-4248-b683-6b3c501faa32
+Received response for message_id: 5fec569e-d75f-4915-ba9b-cea081fab5a5
+Received response for message_id: 7da12396-b7f1-4e2c-aa87-49c6d4e5d67d
+Received response for message_id: 2fbe35ca-6233-44fe-bb3b-0811eaa8dbd5
+Received response for message_id: 5c2c89b7-59ad-40b6-86fd-96cfbf504101
+Received response for message_id: d203fca6-95b4-471b-a4cd-06a77311a987
+Received response for message_id: 538577f8-b3e7-4aac-9559-d25ceff33349
+Received response for message_id: 54fba6bc-cd23-4a87-9407-c488ecb747fb
+Received response for message_id: 974871af-084b-43ae-8fdb-95c3ab4b86b4
+Received response for message_id: 80e0b424-599b-4740-9e33-bca35a384696
+Received response for message_id: cc9127a5-56b5-4ec5-9ea6-f989bc6e68ad
+Received response for message_id: 90a1e65e-0046-4bc3-a420-4f448f598f20
+
+--- Processing Metrics ---
+Number of responses received: 100/100
+Average Pick-Up Latency: 13.8036 seconds
+Average Processing Latency: 4.8333 seconds
+Average Total Latency (Send to Response): 18.6369 seconds
+Total Processing Time: 36.7099 seconds
+(.venv) PS D:\workspace\blue-optima-work-sample> 

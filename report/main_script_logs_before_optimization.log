@@ -1,0 +1,195 @@
+(.venv) PS D:\workspace\blue-optima-work-sample\app> python main.py
+Ready to receive messages
+Reply-to queue: response_queue
+Performing preprocessing operation on: [0.6734625867610888, 0.5422574448212396, 0.1634566767526029, 0.8624160575665082, 0.8534595263917689]
+Performing mock I/O-bound operation...
+Mock I/O-bound operation completed.
+Preprocessing operation completed with final result: 14988.221031672003
+Running ONNX model inference on: 14988.221031672003
+ONNX model inference completed with output: [array([[14988.221]], dtype=float32)]
+Sending response back to response_queue for message_id da8236ed-c5cf-40e2-a5de-e6764979ab90
+Message da8236ed-c5cf-40e2-a5de-e6764979ab90 acknowledged
+Reply-to queue: response_queue
+Performing preprocessing operation on: [0.47947370180653437, 0.9436885648682415, 0.0721338942102977, 0.7645516790867423, 0.7444780492959038]
+Performing mock I/O-bound operation...
+Mock I/O-bound operation completed.
+Preprocessing operation completed with final result: 15048.034000380721
+Running ONNX model inference on: 15048.034000380721
+ONNX model inference completed with output: [array([[15048.034]], dtype=float32)]
+Sending response back to response_queue for message_id 46522876-361e-4124-939e-aaf9d0a9f1e5
+Message 46522876-361e-4124-939e-aaf9d0a9f1e5 acknowledged
+Reply-to queue: response_queue
+Performing preprocessing operation on: [0.21584153195373734, 0.9643142667075817, 0.39749909568527153, 0.8061262320771969, 0.02092776416745712]
+Performing mock I/O-bound operation...
+Mock I/O-bound operation completed.
+Preprocessing operation completed with final result: 13359.538077023572
+Running ONNX model inference on: 13359.538077023572
+ONNX model inference completed with output: [array([[13359.538]], dtype=float32)]
+Sending response back to response_queue for message_id 30a49bd0-2d4f-42be-8a7d-05e797f180d2
+Message 30a49bd0-2d4f-42be-8a7d-05e797f180d2 acknowledged
+Reply-to queue: response_queue
+Performing preprocessing operation on: [0.4075225786567067, 0.17286251903559757, 0.22181540396544996, 0.7177861785552273, 0.6943176262640184]
+Performing mock I/O-bound operation...
+Mock I/O-bound operation completed.
+Preprocessing operation completed with final result: 11146.533722656954
+Running ONNX model inference on: 11146.533722656954
+ONNX model inference completed with output: [array([[11146.534]], dtype=float32)]
+Sending response back to response_queue for message_id c4f4a80f-2e97-473d-b4ee-7b808f8bf142
+Message c4f4a80f-2e97-473d-b4ee-7b808f8bf142 acknowledged
+Reply-to queue: response_queue
+Performing preprocessing operation on: [0.35398885842436156, 0.5941279152857052, 0.5379451166296983, 0.1539705625264498, 0.4751119734585715]
+Performing mock I/O-bound operation...
+Mock I/O-bound operation completed.
+Preprocessing operation completed with final result: 10085.233569766538
+Running ONNX model inference on: 10085.233569766538
+ONNX model inference completed with output: [array([[10085.233]], dtype=float32)]
+Sending response back to response_queue for message_id 08e29a89-e4d9-4921-b9a6-bed045547e3e
+Message 08e29a89-e4d9-4921-b9a6-bed045547e3e acknowledged
+Reply-to queue: response_queue
+Performing preprocessing operation on: [0.2393266167972552, 0.21028219359759293, 0.3558094659758576, 0.7549561227319772, 0.9379308625733302]
+Performing mock I/O-bound operation...
+Mock I/O-bound operation completed.
+Preprocessing operation completed with final result: 12952.87325939699
+Running ONNX model inference on: 12952.87325939699
+ONNX model inference completed with output: [array([[12952.873]], dtype=float32)]
+Sending response back to response_queue for message_id 3c7fc3f3-d56b-42f0-b07c-a0e9a6216034
+Message 3c7fc3f3-d56b-42f0-b07c-a0e9a6216034 acknowledged
+Reply-to queue: response_queue
+Performing preprocessing operation on: [0.6906863032952453, 0.2881562421682822, 0.127961464180102, 0.9642136174636383, 0.7906502909959408]
+Performing mock I/O-bound operation...
+Mock I/O-bound operation completed.
+Preprocessing operation completed with final result: 14598.943484126808
+Running ONNX model inference on: 14598.943484126808
+ONNX model inference completed with output: [array([[14598.943]], dtype=float32)]
+Sending response back to response_queue for message_id 915117e9-8719-4b83-87a4-f60174cb260f
+Message 915117e9-8719-4b83-87a4-f60174cb260f acknowledged
+Reply-to queue: response_queue
+Performing preprocessing operation on: [0.2661383257590284, 0.4991299942709567, 0.19528319660442217, 0.40400894231697637, 0.7299578273299465]
+Performing mock I/O-bound operation...
+Mock I/O-bound operation completed.
+Preprocessing operation completed with final result: 10267.21744996045
+Running ONNX model inference on: 10267.21744996045
+ONNX model inference completed with output: [array([[10267.218]], dtype=float32)]
+Sending response back to response_queue for message_id 66a1d986-2d2a-4755-a78f-d58e1ac382ab
+Message 66a1d986-2d2a-4755-a78f-d58e1ac382ab acknowledged
+Reply-to queue: response_queue
+Performing preprocessing operation on: [0.675613456169532, 0.6853827463636802, 0.6212423213941728, 0.4893614616084927, 0.9370868281665421]
+Performing mock I/O-bound operation...
+Mock I/O-bound operation completed.
+Preprocessing operation completed with final result: 15587.659980529235
+Running ONNX model inference on: 15587.659980529235
+ONNX model inference completed with output: [array([[15587.66]], dtype=float32)]
+Sending response back to response_queue for message_id 340cb7b0-cf99-4bba-8873-e25e308b4ce6
+Message 340cb7b0-cf99-4bba-8873-e25e308b4ce6 acknowledged
+Reply-to queue: response_queue
+Performing preprocessing operation on: [0.6289947951847391, 0.7335840275473463, 0.011825977369822716, 0.73799133635246, 0.40157734910648224]
+Performing mock I/O-bound operation...
+Mock I/O-bound operation completed.
+Preprocessing operation completed with final result: 12805.527757322858
+Running ONNX model inference on: 12805.527757322858
+ONNX model inference completed with output: [array([[12805.527]], dtype=float32)]
+Sending response back to response_queue for message_id d1b4284c-fe8d-4f70-a9ae-00ea5d675553
+Message d1b4284c-fe8d-4f70-a9ae-00ea5d675553 acknowledged
+Reply-to queue: response_queue
+Performing preprocessing operation on: [0.8468949524793742, 0.6308462713817217, 0.3194263661548935, 0.5169620293569128, 0.17563868147766215]
+Performing mock I/O-bound operation...
+Mock I/O-bound operation completed.
+Preprocessing operation completed with final result: 12309.873956609512
+Running ONNX model inference on: 12309.873956609512
+ONNX model inference completed with output: [array([[12309.874]], dtype=float32)]
+Sending response back to response_queue for message_id 615db747-ddd3-4efe-a0e7-1a401c6272c2
+Message 615db747-ddd3-4efe-a0e7-1a401c6272c2 acknowledged
+Reply-to queue: response_queue
+Performing preprocessing operation on: [0.17720142147511742, 0.7711591749132767, 0.2547920860777739, 0.32010711508631084, 0.616771157148972]
+Performing mock I/O-bound operation...
+Mock I/O-bound operation completed.
+Preprocessing operation completed with final result: 10834.579130625621
+Running ONNX model inference on: 10834.579130625621
+ONNX model inference completed with output: [array([[10834.579]], dtype=float32)]
+Sending response back to response_queue for message_id 840c61fd-844e-440e-9e5e-dd7cb796137b
+Message 840c61fd-844e-440e-9e5e-dd7cb796137b acknowledged
+Reply-to queue: response_queue
+Performing preprocessing operation on: [0.02615063856993427, 0.2402956192006641, 0.4530670839029374, 0.3940156539025679, 0.38617440820097026]
+Performing mock I/O-bound operation...
+Mock I/O-bound operation completed.
+Preprocessing operation completed with final result: 7537.072588819429
+Running ONNX model inference on: 7537.072588819429
+ONNX model inference completed with output: [array([[7537.0728]], dtype=float32)]
+Sending response back to response_queue for message_id e53c93f0-3391-4106-824f-4f10a69e13b0
+Message e53c93f0-3391-4106-824f-4f10a69e13b0 acknowledged
+Reply-to queue: response_queue
+Performing preprocessing operation on: [0.48539065131137304, 0.21370543164913558, 0.21499300313568315, 0.06901496492931658, 0.055379368928620276]
+Performing mock I/O-bound operation...
+Mock I/O-bound operation completed.
+Preprocessing operation completed with final result: 5790.734212345071
+Running ONNX model inference on: 5790.734212345071
+ONNX model inference completed with output: [array([[5790.7344]], dtype=float32)]
+Sending response back to response_queue for message_id 0337e2aa-0c69-4f17-98a1-51b703c0a63f
+Message 0337e2aa-0c69-4f17-98a1-51b703c0a63f acknowledged
+Reply-to queue: response_queue
+Performing preprocessing operation on: [0.08000559179064337, 0.40862225049008716, 0.15475576880644681, 0.6536352610763458, 0.25437238165838716]
+Performing mock I/O-bound operation...
+Mock I/O-bound operation completed.
+Preprocessing operation completed with final result: 8302.209039544192
+Running ONNX model inference on: 8302.209039544192
+ONNX model inference completed with output: [array([[8302.209]], dtype=float32)]
+Sending response back to response_queue for message_id 5a08983e-77b5-4759-bf27-b21d9a3f70e3
+Message 5a08983e-77b5-4759-bf27-b21d9a3f70e3 acknowledged
+Reply-to queue: response_queue
+Performing preprocessing operation on: [0.4273021185147371, 0.28281124268757385, 0.057866410362577336, 0.5825315073212158, 0.8697377299885797]
+Performing mock I/O-bound operation...
+Mock I/O-bound operation completed.
+Preprocessing operation completed with final result: 11669.209471571843
+Running ONNX model inference on: 11669.209471571843
+ONNX model inference completed with output: [array([[11669.209]], dtype=float32)]
+Sending response back to response_queue for message_id 7287d5ce-1280-47fd-ba2e-f08015a71d7e
+Message 7287d5ce-1280-47fd-ba2e-f08015a71d7e acknowledged
+Reply-to queue: response_queue
+Performing preprocessing operation on: [0.560756898403547, 0.9811651711632645, 0.8263437248448128, 0.6309027467606951, 0.31091733695001555]
+Performing mock I/O-bound operation...
+Mock I/O-bound operation completed.
+Preprocessing operation completed with final result: 15667.435048817248
+Running ONNX model inference on: 15667.435048817248
+ONNX model inference completed with output: [array([[15667.435]], dtype=float32)]
+Sending response back to response_queue for message_id c1c6bd1a-2803-4116-b278-2ac6a69e909a
+Message c1c6bd1a-2803-4116-b278-2ac6a69e909a acknowledged
+Reply-to queue: response_queue
+Performing preprocessing operation on: [0.8714061475799282, 0.9303054608165325, 0.3648695908739823, 0.8310361894793974, 0.35683332581797866]
+Performing mock I/O-bound operation...
+Mock I/O-bound operation completed.
+Preprocessing operation completed with final result: 16049.60408690109
+Running ONNX model inference on: 16049.60408690109
+ONNX model inference completed with output: [array([[16049.6045]], dtype=float32)]
+Sending response back to response_queue for message_id 771532b3-c8a4-40ad-b5a2-840d278414f7
+Message 771532b3-c8a4-40ad-b5a2-840d278414f7 acknowledged
+Reply-to queue: response_queue
+Performing preprocessing operation on: [0.8820912253613024, 0.4332311487741286, 0.8663877713368342, 0.263553418747436, 0.8969586825487491]
+Performing mock I/O-bound operation...
+Mock I/O-bound operation completed.
+Preprocessing operation completed with final result: 16094.710967228653
+Running ONNX model inference on: 16094.710967228653
+ONNX model inference completed with output: [array([[16094.711]], dtype=float32)]
+Sending response back to response_queue for message_id 68997160-d8a8-41c6-a6d1-76dae6d2c6d8
+Message 68997160-d8a8-41c6-a6d1-76dae6d2c6d8 acknowledged
+Reply-to queue: response_queue
+Performing preprocessing operation on: [0.7767434233992807, 0.897572318798502, 0.7851485495626785, 0.42494127444250573, 0.3453402041852781]
+Performing mock I/O-bound operation...
+Mock I/O-bound operation completed.
+Preprocessing operation completed with final result: 15248.801925047565
+Running ONNX model inference on: 15248.801925047565
+ONNX model inference completed with output: [array([[15248.802]], dtype=float32)]
+Sending response back to response_queue for message_id 26d86c0f-cdc4-4479-8bd4-47460bb93047
+Message 26d86c0f-cdc4-4479-8bd4-47460bb93047 acknowledged
+Reply-to queue: response_queue
+Performing preprocessing operation on: [0.6333468146405594, 0.9097289798188738, 0.8077204109595575, 0.26157032223542676, 0.2664622577708695]
+Performing mock I/O-bound operation...
+Mock I/O-bound operation completed.
+Preprocessing operation completed with final result: 14214.670009953428
+Running ONNX model inference on: 14214.670009953428
+ONNX model inference completed with output: [array([[14214.67]], dtype=float32)]
+Sending response back to response_queue for message_id 1ea53993-b7d3-44a4-8262-2dc805e02934
+Message 1ea53993-b7d3-44a4-8262-2dc805e02934 acknowledged
+Reply-to queue: response_queue
+Performing preprocessing operation on: [0.6725098082511352, 0.33936389121135346, 0.756066458178688, 0.13478236103070207, 0.5842767176437678]
+Performing mock I/O-bound operation...
+(.venv) PS D:\workspace\blue-optima-work-sample\app> 
