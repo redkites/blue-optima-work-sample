@@ -17,7 +17,9 @@ def receive_response(ch, method, properties, body, responses):
     """Callback function to handle responses from the queue."""
     # print(response['message_id'])
     response = json.loads(body.decode())
-    responses[response['message_id']] = response
+    message_id = response.get('message_id')
+    print(f"Received response for message_id: {message_id}")  # Debugging log
+    responses[message_id] = response
     ch.basic_ack(delivery_tag=method.delivery_tag)
 
 def send_messages(host: str, queue_name: str, num_messages: int, response_queue_name: str, timeout: int):
@@ -33,8 +35,16 @@ def send_messages(host: str, queue_name: str, num_messages: int, response_queue_
         response_connection = pika.BlockingConnection(pika.ConnectionParameters(host)) # Create a new connection for the thread
         response_channel = response_connection.channel()
         response_channel.queue_declare(queue=response_queue_name, durable=False)
-        response_channel.basic_consume(queue=response_queue_name, on_message_callback=lambda ch, method, properties, body: receive_response(response_channel, method, properties, body, responses), auto_ack=False)
-        response_channel.start_consuming()
+        print(f"Consuming responses from queue: {response_queue_name}")  # Debugging log
+        response_channel.basic_consume(
+            queue=response_queue_name,
+            on_message_callback=lambda ch, method, properties, body: receive_response(response_channel, method, properties, body, responses),
+            auto_ack=False
+        )
+        try:
+            response_channel.start_consuming()
+        except KeyboardInterrupt:
+            print("Stopping response consumer...")
 
     response_thread = threading.Thread(target=start_consuming)
     response_thread.daemon = True
@@ -70,6 +80,10 @@ def send_messages(host: str, queue_name: str, num_messages: int, response_queue_
     while len(responses) < expected_responses and time.time() - start_wait < timeout:
         time.sleep(0.1)
 
+    # Check if we received all expected responses
+    if len(responses) < expected_responses:
+        print(f"Timeout reached. Expected {expected_responses} responses, but received {len(responses)}.")
+
     connection.close()
 
     # Calculate metrics
@@ -80,7 +94,8 @@ def send_messages(host: str, queue_name: str, num_messages: int, response_queue_
             pick_up_time = response.get('pick_up_timestamp')
             response_time = response.get('response_timestamp')
 
-            if pick_up_time and response_time:
+            # Check if all timestamps are present
+            if send_time and pick_up_time and response_time:
                 pick_up_latency = pick_up_time - send_time
                 processing_latency = response_time - pick_up_time
                 total_latency = response_time - send_time
@@ -96,13 +111,14 @@ def send_messages(host: str, queue_name: str, num_messages: int, response_queue_
 
     if metrics:
         total_duration = max(m['response_time'] for m in metrics) - min(m['send_time'] for m in metrics)
-        total_pick_up_latency = sum(m['pick_up_latency'] for m in metrics)
-        total_processing_latency = sum(m['processing_latency'] for m in metrics)
-        total_total_latency = sum(m['total_latency'] for m in metrics)
-
-        avg_pick_up_latency = total_pick_up_latency / len(metrics)
-        avg_processing_latency = total_processing_latency / len(metrics)
-        avg_total_latency = total_total_latency / len(metrics)
+        # total_pick_up_latency = sum(m['pick_up_latency'] for m in metrics)
+        # total_processing_latency = sum(m['processing_latency'] for m in metrics)
+        # total_total_latency = sum(m['total_latency'] for m in metrics)
+        
+        # directly calculate averages
+        avg_pick_up_latency = sum(m['pick_up_latency'] for m in metrics) / len(metrics)
+        avg_processing_latency = sum(m['processing_latency'] for m in metrics) / len(metrics)
+        avg_total_latency = sum(m['total_latency'] for m in metrics) / len(metrics)
 
         print("\n--- Processing Metrics ---")
         print(f"Number of responses received: {len(responses)}/{num_messages}")
